@@ -1,0 +1,13 @@
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant-ligatures: contextual;
+}
+
+
+
+.nav-link:hover{
+    color: rgba(10, 183, 240, 0.89);
+}

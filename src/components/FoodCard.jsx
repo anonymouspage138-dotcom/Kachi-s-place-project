@@ -1,0 +1,22 @@
+function FoodCard ({food}){
+
+    return(
+        <div className="food-card">
+                 <img src={food.image} alt={food.name} />
+                   <div className="food-content">
+                    <h3>{food.name}</h3>
+                    <p>{food.description}</p>
+
+                    <div className="food-bottom">
+                        <strong>₦{food.price.toLocal.Strong()}</strong>
+                        <button>Add to cart </button>
+                    </div>
+                   </div>
+        </div>
+      
+   
+    )
+
+}
+
+export default FoodCard
