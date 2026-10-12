@@ -1,5 +1,5 @@
 import React from 'react'
-import foods from "../data/foods"
+// import foods from "../data/foods"
 
 const Menu = () => {
   return (

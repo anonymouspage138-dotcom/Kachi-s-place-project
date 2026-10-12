@@ -11,3 +11,8 @@
 .nav-link:hover{
     color: rgba(10, 183, 240, 0.89);
 }
+
+svg{
+    fill: orange;
+}
+

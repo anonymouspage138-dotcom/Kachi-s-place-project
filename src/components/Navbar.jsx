@@ -20,7 +20,7 @@ function NavbarMenu() {
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Menu</Nav.Link>
+            <Nav.Link href="/menu">Menu</Nav.Link>
             <NavDropdown title="About" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Local Dishes</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
@@ -35,10 +35,10 @@ function NavbarMenu() {
                 Desert
               </NavDropdown.Item>
             </NavDropdown>
-             <Nav.Link href="#" true>
+             <Nav.Link href="/contact" true>
               Contact 
             </Nav.Link>
-            <Nav.Link href="#" true>
+            <Nav.Link href="/cart" true>
               &#x1F6D2;Cart 
             </Nav.Link>
           </Nav>
