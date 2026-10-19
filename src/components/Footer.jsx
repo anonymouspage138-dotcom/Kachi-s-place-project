@@ -7,17 +7,17 @@ import { FaLocationDot } from "react-icons/fa6";
 
 function Footer(){
   return (
-    <Container fluid className='bg-black p-5 text-white'>
+    <Container fluid className='bg-black p-5 text-white footer'>
       <Row className='gap-5'>
         <Col>
         <img src="public\images\kachi01.png" alt="" width={100} />
         <p>Delicious meals, freshly prepared with love. Enjoy your favourite dishes and get them delivered straight to your doorstep</p>
          <p> <FaLocationDot /> Lagos, Nigeria</p></Col>
         <Col><h6>Quick Links</h6> 
-          <li>Home</li>
-          <li>Our Menu</li>
-          <li> About Us</li>
-          <li>Contact Us</li>
+        <a href='/'>  <li>Home</li></a>
+         <a href='/menu'> <li>Our Menu</li></a>
+         <a href='/about'> <li>About Us</li></a>
+         <a href='/contact'> <li>Contact Us</li></a>
         </Col>
         <Col><h6>Contact Us</h6>
         <p> <FaPhoneSquareAlt />+234 8137160820</p>
@@ -28,7 +28,7 @@ function Footer(){
       <hr />
 
       <Row>
-        <Col className='text-center'><h6>© 2026 Wonderland. All rights reserved.</h6></Col>
+        <Col className='text-center'><h6>© 2026 Kachi's Place. All rights reserved.</h6></Col>
       </Row>
     </Container>
 

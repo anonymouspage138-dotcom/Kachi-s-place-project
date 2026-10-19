@@ -8,7 +8,7 @@ function FoodCard ({food}){
                     <p>{food.description}</p>
 
                     <div className="food-bottom">
-                        <strong>₦{food.price.toLocal.Strong()}</strong>
+                        <strong>₦{food.price.toLocaleString()}</strong>
                         <button>Add to cart </button>
                     </div>
                    </div>

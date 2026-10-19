@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
-function NavbarMenu() {
+function NavbarMenu({cartCount = 0 }) {
   return (
     <Navbar expand="lg" className="bg-black tex">
       <Container fluid>
@@ -35,11 +35,11 @@ function NavbarMenu() {
                 Desert
               </NavDropdown.Item>
             </NavDropdown>
-             <Nav.Link href="/contact" true>
+             <Nav.Link href="/contact">
               Contact 
             </Nav.Link>
-            <Nav.Link href="/cart" true>
-              &#x1F6D2;Cart 
+            <Nav.Link href="/cart">
+              &#x1F6D2;Cart <span className='badge bg-danger'>({cartCount})</span>
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

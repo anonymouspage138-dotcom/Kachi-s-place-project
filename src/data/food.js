@@ -95,4 +95,6 @@ const foods = [
     image: "https://unsplash.com",
     description: "Rich and creamy milkshake blended with premium chocolate ice cream and topped with whipped cream."
   }
-]
+];
+
+export default foods;
